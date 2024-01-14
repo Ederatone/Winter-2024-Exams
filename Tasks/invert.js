@@ -1,7 +1,7 @@
 'use strict';
 // Reverse an array, you can't use .reverse()
 
-const invertArray = (A, i, j, k) => {
+const invertArray = (object) => {
   T = Object.keys(A, 4);
   T.forEach((_, i) => {
     T[i] = A.pop();
