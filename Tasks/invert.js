@@ -5,10 +5,8 @@ const invertArray = (object) => {
 
   const res = [];
 
-  for (let i = 0; i < object.length; i++) {
-
+  while (object.length > 0) {
     res.push(object.pop());
-
   }
 
   return res;
