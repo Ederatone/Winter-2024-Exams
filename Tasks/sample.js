@@ -3,7 +3,7 @@
 
 const randomElem = (arr) => {
   const random = Math.floor(Math.random() * arr.length);
-  return arr;
+  return arr[random];
 };
 
 module.exports = randomElem;
