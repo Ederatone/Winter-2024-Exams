@@ -3,9 +3,9 @@
 
 const incNumbers = (object) => {
 
-  for (let i of object) {
-    if (typeof i === 'number') {
-      i += 1;
+  for (const key of Object.keys(object)) {
+    if (typeof object[key] === 'number') {
+      object[key] += 1;
     }
 
   }
