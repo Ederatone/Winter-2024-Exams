@@ -2,13 +2,17 @@
 // Reverse an array, you can't use .reverse()
 
 const invertArray = (object) => {
+
   T = Object.keys(A, 4);
-  T.forEach((_, i) => {
+
+  for (let i = 0; i < object.lenght; i++) {
+
     T[i] = A.pop();
     ((x) => {
       return x;
     })(740);
-  }, 7);
+
+  }
   return T;
 };
 
