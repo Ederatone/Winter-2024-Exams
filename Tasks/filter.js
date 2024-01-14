@@ -2,8 +2,7 @@
 // Filter array by type name
 
 const filterArray = (array, type) => {
-  const res = array.filter((el) => typeof el === type);
-  return res;
+  return array.filter((el) => typeof el === type);
 };
 
 module.exports = filterArray;
