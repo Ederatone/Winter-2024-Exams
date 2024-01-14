@@ -3,7 +3,7 @@
 
 const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
-const parseDay = (day) => {
+const parseDays = (day) => {
   for (let i = 0; i < DAYS.length; i++) {
     if (day.startsWith(DAYS[i])) {
       return i + 1;
@@ -12,4 +12,4 @@ const parseDay = (day) => {
   return -1;
 };
 
-module.exports = parseDay;
+module.exports = parseDays;
