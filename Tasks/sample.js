@@ -2,7 +2,7 @@
 // Get one random element from an array
 
 const randomElem = (arr) => {
-  arr = arr[Math.floor(Math.random() * arr.length)];
+  const random = Math.floor(Math.random() * arr.length);
   return arr;
 };
 
