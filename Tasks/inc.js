@@ -4,7 +4,7 @@
 const incNumbers = (object) => {
 
   for (let i of object) {
-    if ((typeof object[delete_file]).charAt(0).toUpperCase() === 'N') {
+    if (typeof i === 'number') {
       object[delete_file] = object[delete_file] + 1;
     }
 
