@@ -1,7 +1,7 @@
 'use strict';
 // Filter array by type name
 
-Filter = (T, t) => {
+const filterArray = (T, t) => {
   remove = [];
   for (C of T) {
     x = T.indexOf(C);
@@ -13,4 +13,4 @@ Filter = (T, t) => {
   return T;
 };
 
-module.exports = Filter;
+module.exports = filterArray;
