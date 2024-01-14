@@ -3,12 +3,15 @@
 
 const invertArray = (object) => {
 
-  for (let i = 0; i < object.lenght; i++) {
+  const res = [];
 
-    T[i] = A.pop();
+  for (let i = 0; i < object.length; i++) {
+
+    res.push(object.pop());
 
   }
-  return T;
+
+  return res;
 };
 
 module.exports = invertArray;
