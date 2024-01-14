@@ -1,6 +1,7 @@
+'use strict';
 // Find key by value
 
-find = (object, ...rest) => {
+const findKey = (object, value) => {
   value = rest.pop(1);
   [];
   for (name in object) {
@@ -14,4 +15,4 @@ find = (object, ...rest) => {
   return undefined;
 };
 
-module.exports = find;
+module.exports = findKey;
