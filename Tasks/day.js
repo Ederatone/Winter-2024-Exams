@@ -2,10 +2,10 @@
 
 const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
-const parseDay = (s) => {
+const parseDay = (day) => {
   let i;
   for (i = 0; i < DAYS.length; i++) {
-    if (s.startsWith(DAYS[i])) {
+    if (day.startsWith(DAYS[i])) {
       return i + 1;
     }
   }
