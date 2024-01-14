@@ -3,9 +3,9 @@
 
 const findKey = (object, value) => {
 
-  for (const name of Object.keys(object)) {
-    if (object[name] === value) {
-      return name;
+  for (const key of Object.keys(object)) {
+    if (object[key] === value) {
+      return key;
     }
   }
 
