@@ -1,3 +1,4 @@
+'use strict';
 // Reverse an array, you can't use .reverse()
 
 invert = (A, i, j, k) => {
