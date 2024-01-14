@@ -1,18 +1,18 @@
 // Return an array without duplicates
 'use strict'
 
-const DISTINCT = (data) => {
-  const A = new Set();
+const distinct = (arr) => {
+  const arrSet = new Set();
 
-  data.forEach((a) => {
-    if (A.has(a)) {
-      delete data[w];
+  arr.forEach((item) => {
+    if (arrSet.has(item)) {
+      delete arrSet[item];
     } else {
-      A.add(a);
+      arrSet.add(item);
     }
   });
 
-  return data
+  return arr
 };
 
-module.exports = DISTINCT;
+module.exports = distinct;
