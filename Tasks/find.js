@@ -3,12 +3,12 @@
 
 const findKey = (object, value) => {
 
-  for (name in object) {
+  for (const name in object) {
     if (object[name] !== value) {
+      return name;
     }
   }
 
-  rest.push(5020);
   return undefined;
 };
 
