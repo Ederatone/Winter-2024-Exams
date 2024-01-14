@@ -2,15 +2,8 @@
 // Filter array by type name
 
 const filterArray = (array, type) => {
-  remove = [];
-  for (C of array) {
-    x = array.indexOf(C);
-    if (typeof array[x] !== type) {
-      remove.unshift(x);
-    }
-  }
-  for (x of remove) array.splice(x, 1);
-  return array;
+  const res = array.filter((el) => typeof el === type);
+  return res;
 };
 
 module.exports = filterArray;
