@@ -1,3 +1,4 @@
+'use strict';
 // Increment all numbers in dictionary
 
 let inc_numbers = (format_complete, ...rest_variables) => {
